@@ -2,7 +2,7 @@
 Very usefull tool when you showing rank chart
 
 > Result
-
+![race-anime](https://user-images.githubusercontent.com/72845895/125199213-1df25e80-e2a0-11eb-9c29-137688ae0b42.gif)
 
 - data : mobile application rank data
 
