@@ -1,3 +1,5 @@
+# pip install bar-chart-race 
+# conda install -c conda-forge bar_chart_race
 import pandas as pd 
 import matplotlib.pylab as plt
 import numpy as np
@@ -26,3 +28,10 @@ data = data.rename(columns = data.iloc[0])
 data = data.drop(data.index[0])
 data = data.reset_index(drop=True).astype(int)
 data.index = (data.index +1).map(str) + "week"
+
+import bar_chart_race as bcr
+bcr.bar_chart_race(df = data, 
+                   n_bars = 6, 
+                   sort='desc',
+                   title='mobile',
+                   filename = 'mobile.mp4')
