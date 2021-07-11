@@ -1,11 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
-
 import platform
 from matplotlib import font_manager, rc
-import matplotlib.pyplot as plt
-
 # 한글 사용시 마이너스 폰트가 깨지는 문제가 발생할 수 있으므로 설정변경
 plt.rcParams['axes.unicode_minus'] = False
 
@@ -26,9 +22,7 @@ x = []
 y = []
 k = [] 
 
-
 for i in range(1800):
-
     x.append(history.index[i])
     y.append(history["loss"][i])
     k.append(history["val_loss"][i])
@@ -41,4 +35,5 @@ for i in range(1800):
         plt.plot(x, y , color="red", label="loss")
         plt.plot(x, k , color="blue", label="val_loss")
         plt.pause(0.001)
+
 plt.show()
