@@ -1,5 +1,7 @@
 # pip install bar-chart-race 
 # conda install -c conda-forge bar_chart_race
+# conda install -c conda-forge ffmpeg 
+
 import pandas as pd 
 import matplotlib.pylab as plt
 import numpy as np
@@ -12,7 +14,7 @@ df["score"] = 101- df["rank"]
 # data cleaning
 df["yearID"] = df["yearID"].str.replace("Y","").astype(int)
 df["num"] = df["yearID"] * df['weekIndex']
-df["num"] = df["yearID"] * df['weekIndex']
+df = df[["appID", "score"]]
 
 # Dataframe making
 data = pd.DataFrame(index= list(df["appID"].unique())).reset_index().rename(columns={"index": "appID"})
@@ -35,3 +37,4 @@ bcr.bar_chart_race(df = data,
                    sort='desc',
                    title='mobile',
                    filename = 'mobile.mp4')
+print("bar-race is ready")
