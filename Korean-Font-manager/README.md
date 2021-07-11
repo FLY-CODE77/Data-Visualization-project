@@ -7,9 +7,9 @@
 - So it is so uncomfortable process
 - It can save our time when you make universial korean font path manager 
 
-> Font break like this....
+> Before and After
 
-<img width="431" alt="스크린샷 2021-07-11 오후 10 22 23" src="https://user-images.githubusercontent.com/72845895/125196936-a8ce5b80-e296-11eb-846b-bb6bda1b79d4.png">
+<img width="431" alt="스크린샷 2021-07-11 오후 10 22 23" src="https://user-images.githubusercontent.com/72845895/125196936-a8ce5b80-e296-11eb-846b-bb6bda1b79d4.png"><img width="427" alt="스크린샷 2021-07-11 오후 10 34 13" src="https://user-images.githubusercontent.com/72845895/125197345-33638a80-e298-11eb-8f92-70f17aad1204.png">
 
 
 
@@ -35,5 +35,3 @@ else:
 > this version support windows and mac and ubuntu
 
 ---
-# When this code add 
-<img width="427" alt="스크린샷 2021-07-11 오후 10 34 13" src="https://user-images.githubusercontent.com/72845895/125197345-33638a80-e298-11eb-8f92-70f17aad1204.png">
