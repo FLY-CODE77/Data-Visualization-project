@@ -1,6 +1,7 @@
 # pip install bar-chart-race 
 # conda install -c conda-forge bar_chart_race
-# conda install -c conda-forge ffmpeg 
+# conda install -c conda-forge ffmpeg (ubuntu)
+# brew install ffmpeg --HEAD (mac)
 
 import pandas as pd 
 import matplotlib.pylab as plt
